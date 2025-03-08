@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnley's Fun Pet Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐾 Finnley's Fun Pet Chat 🐾</h1>
+        
+        <div class="pet-selection">
+            <h2>Choose Your Pet Friend!</h2>
+            <div class="pet-options">
+                <button class="pet-button" data-pet="dog">🐕 Puppy</button>
+                <button class="pet-button" data-pet="cat">🐱 Kitty</button>
+                <button class="pet-button" data-pet="bunny">🐰 Bunny</button>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="pet-display">
+                <div id="pet-avatar" class="pet-avatar">
+                    <!-- Pet will be displayed here -->
+                </div>
+                <div id="pet-speech-bubble" class="speech-bubble hidden">
+                    <!-- Pet's response will appear here -->
+                </div>
+            </div>
+
+            <div class="message-input">
+                <input type="text" id="user-message" placeholder="Say something to your pet...">
+                <button id="send-message">Send</button>
+                <button id="speak-message" class="speak-button">🔊 Speak</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="config.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
