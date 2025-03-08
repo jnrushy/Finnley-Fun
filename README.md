@@ -2,6 +2,14 @@
 
 A fun, interactive web game where kids can chat with friendly pets and learn about the world! 🐕 🐱 🐰
 
+## Setup
+
+1. Clone the repository
+2. Copy `config.example.js` to `config.js`
+3. Add your API key to `config.js`
+4. Start a local web server (e.g., `python3 -m http.server 8000`)
+5. Open `http://localhost:8000` in your browser
+
 ## Features
 
 - Choose from three adorable pets: Dog, Cat, or Bunny
@@ -25,12 +33,6 @@ A fun, interactive web game where kids can chat with friendly pets and learn abo
 - No external dependencies required
 - Uses Web Speech API for text-to-speech functionality
 - Responsive design for various screen sizes
-
-## Running Locally
-
-1. Clone the repository
-2. Start a local web server (e.g., `python3 -m http.server 8000`)
-3. Open `http://localhost:8000` in your browser
 
 ## Files
 

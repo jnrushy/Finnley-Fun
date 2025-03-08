@@ -25,4 +25,7 @@ dist/
 build/
 
 # Local configuration
-config.local.js 
+config.js
+
+# Keep the example config
+!config.example.js 
